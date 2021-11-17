@@ -55,6 +55,6 @@ Known bugs:
 
 -When using the + operation, entering the 1st number but not the 2nd number can give the UnboundLocalError exception. The app automatically terminates after this.
 
--If receiving any input other than numbers, the app will send an error message, then terminate. This issue is now resolved in update v1.5.
+-If receiving any input other than numbers, the app will send an error message, then terminate. This issue is now resolved in v1.5.
 
 I always appreciate any feedback and suggestions for this software, especially about the auto-termination error which wasn't noticed until v1.5.
