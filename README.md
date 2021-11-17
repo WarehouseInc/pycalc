@@ -1,7 +1,5 @@
 # python-calculator
 
-my new python calculator
-
 1.This is a command-line executable, written in Python 3.10.
 
 2.The calculator supports 6 operations: +(addition), -(subtraction), *(multiplication), /(division), **(power), %(modulo).
