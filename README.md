@@ -10,8 +10,6 @@ Python IDLE is the ideal editor, but you can also use Visual Studio Code(with Py
 
 4.If needed, use PyInstaller to publish your copy of the software with .EXE extension.
 
-5.The GNU GPLv3 license is published in another licenses.md file with a SHA512 hash of 
-
-a77455e6b9a2391755b0eba326b7165a85ffcf9a70d88c5995911af8dc28ff1c60c76c499d2b36fe9ba2204b6c3f5e3d141c5c39aa634ee85c3345d7b513e1fc
+5.The GNU GPLv3 license is published in a licenses.md file with a SHA512 hash of
 
 Please check its integrity before opening.
