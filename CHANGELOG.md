@@ -26,8 +26,4 @@ v1.0:
 
 -Original release
 
-Known bugs:
-
-When the + operation is used, if a legitimate input is made in the 1st number input field but an illegitimate input is made in the 2nd number field, the UnboundLocalError exception is encountered. The app automatically terminates after this event.
-
-I always appreciate any feedback and suggestions for this software, especially about the auto-termination error in v1.5.
+I always appreciate any feedback and suggestions for this software, especially about the auto-termination issue in v1.5.
