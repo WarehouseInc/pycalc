@@ -10,4 +10,4 @@ Python IDLE is the ideal editor, but you can also use Visual Studio Code(with Py
 
 4.If needed, use PyInstaller to publish your copy of the software with .EXE extension.
 
-5.File hashes are provided in a separate hash.md file. Always check the downloaded files' integrity before opening.
+5.Always check the downloaded files' integrity before opening.
