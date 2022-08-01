@@ -12,4 +12,7 @@ Python IDLE is the ideal editor, but you can also use Visual Studio Code(with Py
 
 5.Always check the downloaded files' integrity before opening. File hashes are provided with each new release.
 
+WARNING: DO NOT DOWNLOAD OLD VERSIONS UNLESS ASKED. File hashes are only available for the current release in this Readme markdown file.
+
 6.You might wonder why there hasn't been a new release for a long time. Well it's because this calculator is just a project born out of impulse and thus won't be in active development. I'll release a new version when it's ready.
+
