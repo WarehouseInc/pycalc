@@ -25,3 +25,11 @@ Main calculator source: `ffb7b4b5f4cd079422cbe305345d0995184fc95cb3996662a5b4fa2
 Pi digit calculator executable: `529f3a2105c3c07cd7ee4e4b2d23bb4a436d879fa8d716a9a629d93126591c4e`
 
 Pi digit calculator source: `aeba56c9d9e5a2c796df31cab5d1d02060dd8901b06863e68266fe3f2b90100e`
+
+Use a hash calculator like 7-Zip or PowerShell (see below). For 7-Zip just right click the file, hover to its context menu, then CRC SHA, and choose SHA256.
+
+For PowerShell it's a bit more complicated but the command syntax goes like this:
+
+`Get-FileHash [-Path] <String[]> [[-Algorithm] <String>] [<CommonParameters>]`
+
+Example: `PS C:\> Get-FileHash C:\pi.py -Algorithm SHA256 | Format-List` will print the SHA256 value of the `pi.py` file which, as stated above, should be `aeba56c9d9e5a2c796df31cab5d1d02060dd8901b06863e68266fe3f2b90100e`.
