@@ -1,6 +1,6 @@
 def welcome():
     print('''
-Calculator 1.6
+Calculator 1.7
 ''')
 
 ...
