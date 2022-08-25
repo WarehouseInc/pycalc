@@ -1,3 +1,15 @@
+v1.7:
+
+-Added square root and cube root calculation support.
+
+v1.6:
+
+-Added support for calculating the digits of pi through an addon.
+
+v1.5.1:
+
+-Bugfix for the autotermination error in version 1.5. Update highly recommended.
+
 v1.5:
 
 -Added an error message when no input is received in the number input field
@@ -25,5 +37,3 @@ v1.1:
 v1.0:
 
 -Original release
-
-I always appreciate any feedback and suggestions for this software, especially about the auto-termination issue in v1.5.
