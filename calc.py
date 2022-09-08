@@ -76,7 +76,7 @@ Enter math operation:
         elif operation == 'cbrt':
             try:    
                 number_1_cbrt = number_1 ** (1./3.)
-                print('The square root of %0.9f is %0.9f'%(number_1 ,number_1_cbrt))
+                print('The cube root of %0.9f is %0.9f'%(number_1 ,number_1_cbrt))
             except:
                 number_1 = abs(number_1)
                 number_1_cbrt = number_1 ** (1./3.) * -1
