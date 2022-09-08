@@ -12,13 +12,13 @@
 
 6. WARNING: DO NOT DOWNLOAD OLD VERSIONS UNLESS ASKED TO, AS THEY MAY CONTAIN UNDETECTED/UNINTENTIONALLY DEVELOPED MALWARE. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
-Main calculator executable: `f1bb8706ef7e42488dbd6d08fe288ba399e6ebcfc83916c832cae10517f3555b`
+Main calculator executable: `f79cad2f0f9e3f19706ec855b0d2afa02904cded1cc4ad3ce620c97507033a50`
 
-Main calculator source: `4be9096e58069339d03e33f04203f83d1851776c0838abb1b19cdca917b8e3e5`
+Main calculator source: `75ffbb767abab662ee7cbd36a5caebdab8a8051bfab05e511615d5bb0fcb1130`
 
 Pi digit calculator executable: `529f3a2105c3c07cd7ee4e4b2d23bb4a436d879fa8d716a9a629d93126591c4e`
 
-Pi digit calculator source: `aeba56c9d9e5a2c796df31cab5d1d02060dd8901b06863e68266fe3f2b90100e`
+Pi digit calculator source: `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`
 
 Use a hash calculator like 7-Zip's CRC SHA or PowerShell (see below). For 7-Zip just right click the file, hover to its context menu, then CRC SHA, and choose SHA256.
 
