@@ -1,6 +1,6 @@
 # python-calculator
 
-1. This is a command-line executable, written in Python 3.10.
+1. This is a command-line executable, written in Python 3.11.
 
 2. The calculator supports 8 operations: + (addition), - (subtraction), * (multiplication), / (division), ** (power), % (modulo), √ (square root) and 3√ (cube root).
 
@@ -8,15 +8,15 @@
 
 4. You might wonder why there hasn't been a new release for a long time. Well it's because this calculator is just a project born out of impulse and thus won't be in active development. I'll release a new version when it's ready.
 
-5. Recommended for use in a terminal instance, since the `again()` function is currently broken, as of release 1.7. An issue has been created in the repository. 
+5. ~~Recommended for use in a terminal instance, since the `again()` function is currently broken, as of release 1.7. An issue has been created in the repository.~~ This has been resolved in 1.8. Upgrade highly recommended.
 
 6. WARNING: DO NOT DOWNLOAD OLD VERSIONS UNLESS ASKED TO, AS THEY MAY CONTAIN UNDETECTED/UNINTENTIONALLY DEVELOPED MALWARE. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
-Main calculator executable: `f79cad2f0f9e3f19706ec855b0d2afa02904cded1cc4ad3ce620c97507033a50`
+Main calculator executable: `17c8499614e31a8677caad4648d99ff6ecd96bcd7a45f1b49ff18a6d5f7ddd4b`
 
-Main calculator source: `75ffbb767abab662ee7cbd36a5caebdab8a8051bfab05e511615d5bb0fcb1130`
+Main calculator source: `161c7bdd87f7e051021c106461f26569e2af24471a93c3e1ad19593c7ee30ac3`
 
-Pi digit calculator executable: `529f3a2105c3c07cd7ee4e4b2d23bb4a436d879fa8d716a9a629d93126591c4e`
+Pi digit calculator executable: `7399cc5766a0da98d8213fe047322f0530898faadab8307ad29dc6e9a2ca8763`
 
 Pi digit calculator source: `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`
 
@@ -24,6 +24,9 @@ Use a hash calculator like 7-Zip's CRC SHA or PowerShell (see below). For 7-Zip 
 
 For PowerShell it's a bit more complicated but the command syntax goes like this:
 
-`Get-FileHash [-Path] <String[]> [[-Algorithm] <String>] [<CommonParameters>]`
+`Get-FileHash [-Path] <FileName> [[-Algorithm] <AlgoName>] [<CommonParameters>]`
 
-Example: `PS C:\> Get-FileHash C:\pi.py -Algorithm SHA256 | Format-List` will print the SHA256 value of the `pi.py` file which, as stated above, should be `aeba56c9d9e5a2c796df31cab5d1d02060dd8901b06863e68266fe3f2b90100e`.
+(`CommonParameters` is denoted in Microsoft's guide about hashing in PS https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3)
+
+Example: `PS C:\> Get-FileHash C:\pi.py -Algorithm SHA256 | Format-List` will print the SHA256 value of the `pi.py` file which, as stated above, should be `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`.
+![Screenshot_20221115_105453](https://user-images.githubusercontent.com/70247964/201965479-feb58a79-233d-4cb3-9a7f-227805aa4d5c.png)
