@@ -12,9 +12,9 @@
 
 6. WARNING: DO NOT DOWNLOAD OLD VERSIONS UNLESS ASKED TO, AS THEY MAY CONTAIN UNDETECTED/UNINTENTIONALLY DEVELOPED MALWARE. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
-Main calculator executable: `17c8499614e31a8677caad4648d99ff6ecd96bcd7a45f1b49ff18a6d5f7ddd4b`
+Main calculator executable: `SHA256: 7300380b21bd390190875093c8a55f871cd0a5f4bc3a0b6f51366a12633ba5b0`
 
-Main calculator source: `161c7bdd87f7e051021c106461f26569e2af24471a93c3e1ad19593c7ee30ac3`
+Main calculator source: `1858921975bc96861911b517291eef183815b6283484315112a54092d3149a3d`
 
 Pi digit calculator executable: `7399cc5766a0da98d8213fe047322f0530898faadab8307ad29dc6e9a2ca8763`
 
@@ -29,4 +29,4 @@ For PowerShell it's a bit more complicated but the command syntax goes like this
 (`CommonParameters` is denoted in Microsoft's guide about hashing in PS https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3)
 
 Example: `PS C:\> Get-FileHash C:\pi.py -Algorithm SHA256 | Format-List` will print the SHA256 value of the `pi.py` file which, as stated above, should be `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`.
-![Screenshot_20221115_105453](https://user-images.githubusercontent.com/70247964/201965479-feb58a79-233d-4cb3-9a7f-227805aa4d5c.png)
+![Screenshot 2022-12-08 174809](https://user-images.githubusercontent.com/70247964/206427757-a2589044-d667-46c3-90d0-243cca3917af.png)
