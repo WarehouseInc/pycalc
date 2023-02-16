@@ -1,6 +1,7 @@
 v1.8:
 
 -Fixed bugs related to square root and cube root support.
+
 v1.7:
 
 -Added square root and cube root calculation support.
