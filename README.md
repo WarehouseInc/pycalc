@@ -4,15 +4,11 @@
 
 2. The calculator supports 8 operations: + (addition), - (subtraction), * (multiplication), / (division), ** (power), % (modulo), √ (square root) and 3√ (cube root).
 
-3. If needed, use PyInstaller to publish your copy of the software as an executable.
+3. You might wonder why there hasn't been a new release for a long time. Well it's because this calculator is just a project born out of impulse and thus won't be in active development. I'll release a new version when it's ready.
 
-4. You might wonder why there hasn't been a new release for a long time. Well it's because this calculator is just a project born out of impulse and thus won't be in active development. I'll release a new version when it's ready.
+4. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
-5. ~~Recommended for use in a terminal instance, since the `again()` function is currently broken, as of release 1.7. An issue has been created in the repository.~~ This has been resolved in 1.8. Upgrade highly recommended.
-
-6. WARNING: DO NOT DOWNLOAD OLD VERSIONS UNLESS ASKED TO, AS THEY MAY CONTAIN UNDETECTED/UNINTENTIONALLY DEVELOPED MALWARE. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
-
-Main calculator executable: `SHA256: 7300380b21bd390190875093c8a55f871cd0a5f4bc3a0b6f51366a12633ba5b0`
+Main calculator executable: `7300380b21bd390190875093c8a55f871cd0a5f4bc3a0b6f51366a12633ba5b0`
 
 Main calculator source: `1858921975bc96861911b517291eef183815b6283484315112a54092d3149a3d`
 
