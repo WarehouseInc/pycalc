@@ -1,6 +1,6 @@
 def welcome():
     print('''
-Calculator 1.8 - Addon to calculate the digits of Pi
+Calculator 2.0 - Addon to calculate the digits of Pi
 ''')
 
 ...

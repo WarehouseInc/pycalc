@@ -1,5 +1,7 @@
+import numpy
+from numpy import emath
 def welcome():
-    print("Calculator 1.8")
+    print("Calculator 2.0")
 
 def calculate():
     operation = input('''
@@ -13,71 +15,95 @@ Enter math operation:
 'sqrt' for square root (CASE SENSITIVE!)
 'cbrt' for cube root (again, case sensitive.)
 ''')
-    try:
-        if operation == 'sqrt':
-            number_1 = float(input('Operand: '))
-            invalid = False
-        if operation == 'cbrt':
-            number_1 = float(input('Operand: '))
-            invalid = False
-        else:
-            number_1 = int(input('Operand 1: '))
-            number_2 = int(input('Operand 2: '))
-            invalid = False
-    except ValueError:
-        print("Invalid operand! Quitting...")
-        number_1 = 1
-        number_2 = 1
-        invalid = True
+    while True:
+            try: 
+                if operation == 'sqrt':
+                   try:
+                       num0 = input('Operand: ')
+                       num = float(num0)
+                   except ValueError:
+                       print('Invalid operand. Abort.')
+                   else:
+                       break
+                if operation == 'cbrt':
+                   try:
+                       num0 = input('Operand:')
+                       num = float(num0)
+                   except ValueError:
+                        print('Invalid operand. Abort.')
+                   else:
+                        break
+                else:
+                    try:
+                        num1 = input('Operand 1:')
+                        num2 = input('Operand 2:')
+                        number_1 = float(num1)
+                        number_2 = float(num2)
+                    except ValueError:
+                        print("Invalid operand(s). Abort.")
+                    else:
+                        break
+            except ValueError:
+                print("Invalid operation. Abort.")
+                exit()
+            else:
+                break
+    if operation == '+':
+            try:
+                print('{} + {} = '.format(number_1, number_2))
+                print(number_1 + number_2)
+            except UnboundLocalError:
+                exit()
 
-    if not invalid:
-        if operation == '+':
-            print('{} + {} = '.format(number_1, number_2))
-            print(number_1 + number_2)
+    elif operation == '-':
+            try:
+                print('{} - {} = '.format(number_1, number_2))
+                print(number_1 - number_2)
+            except UnboundLocalError:
+                exit()
 
-        elif operation == '-':
-            print('{} - {} = '.format(number_1, number_2))
-            print(number_1 - number_2)
+    elif operation == '*':
+            try:
+                print('{} * {} = '.format(number_1, number_2))
+                print(number_1 * number_2)
+            except UnboundLocalError:
+                exit()
 
-        elif operation == '*':
-            print('{} * {} = '.format(number_1, number_2))
-            print(number_1 * number_2)
-
-        elif operation == '/':
+    elif operation == '/':
             try:
                 print('{} / {} = '.format(number_1, number_2))
                 print(number_1 / number_2)
-            except:
+            except UnboundLocalError:
+                exit()
+            except ZeroDivisionError:
                 print("Indeterminate")
+            
+    elif operation == '**':
+            try:
+                print('{} ** {} = '.format(number_1, number_2))
+                print(number_1 ** number_2)
+            except UnboundLocalError:
+                exit()
 
-        elif operation == '**':
-            print('{} ** {} = '.format(number_1, number_2))
-            print(number_1 ** number_2)
-
-        elif operation == '%':
+    elif operation == '%':
             try:
                 print('{} % {} ='.format(number_1, number_2))
                 print(number_1 % number_2)
-            except:
+            except UnboundLocalError:
+                exit()
+            except ZeroDivisionError:
                 print("Indeterminate")
         
-        elif operation == 'sqrt':
-            try:
-                number_1_sqrt = number_1 ** 0.5
-                print('The square root of %0.9f is %0.9f'%(number_1 ,number_1_sqrt))
-            except:
-               print("Indeterminate-only non-negative numbers allowed")
+    elif operation == 'sqrt':
+                num_sqrt = numpy.emath.sqrt(num)
+                print(f'The square root of {num} is {num_sqrt}')
         
-        elif operation == 'cbrt':
-            try:    
-                number_1_cbrt = number_1 ** (1./3.)
-                print('The cube root of %0.9f is %0.9f'%(number_1 ,number_1_cbrt))
-            except:
-                number_1 = abs(number_1)
-                number_1_cbrt = number_1 ** (1./3.) * -1
-                print('The cube root of -%0.9f is %0.9f'%(number_1 ,number_1_cbrt))      
-        else:
-            print('Invalid operator')
+    elif operation == 'cbrt':    
+                num_cbrt = numpy.cbrt(num)
+                print(f'The cube root of {num} is {num_cbrt}')
+            
+    else:
+            print('Invalid operator. Abort.')
     again()
 
 def again():

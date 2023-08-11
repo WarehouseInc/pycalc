@@ -1,43 +1,49 @@
-v1.8:
+2.0
 
--Fixed bugs related to square root and cube root support.
+- Negative square roots are finally supported!
 
-v1.7:
+- Bugfixes
 
--Added square root and cube root calculation support.
+1.8:
 
-v1.6:
+- Fixed bugs related to square root and cube root support.
 
--Added support for calculating the digits of pi through an addon.
+1.7:
 
-v1.5.1:
+- Added square root and cube root calculation support.
 
--Bugfix for the autotermination error in version 1.5. Update highly recommended.
+1.6:
 
-v1.5:
+- Added support for calculating the digits of pi through an addon.
 
--Added an error message when no input is received in the number input field
+1.5.1:
 
-v1.4
+- Bugfix for the autotermination error in version 1.5. Update highly recommended.
 
--Added an error message when a divide/modulo by zero exception is encountered and is not properly handled
+1.5:
 
-v1.3
+- Added an error message when no input is received in the number input field
 
--Added modulo function
+1.4
 
-v1.2:
+- Added an error message when a divide/modulo by zero exception is encountered and is not properly handled
 
--Changed error message when entering anything other than operators
+1.3
 
-v1.1:
+- Added modulo function
 
--Added welcome and exit text
+1.2:
 
--Compressed for better portability
+- Changed error message when entering anything other than operators
 
--Fixed an issue where some antiviruses may flag the executable as a trojan
+1.1:
 
-v1.0:
+- Added welcome and exit text
 
--Original release
+- Compressed for better portability
+
+- Fixed an issue where some antiviruses may flag the executable as a trojan
+
+1.0:
+
+- Original release

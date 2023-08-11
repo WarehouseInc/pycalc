@@ -6,13 +6,13 @@
 
 3. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
-Main calculator executable: `7300380b21bd390190875093c8a55f871cd0a5f4bc3a0b6f51366a12633ba5b0`
+Main calculator executable: `e8194944d8c9a9607f2d7f891f28c2702592f9a0176bd663f17b06f5c6a82423`
 
-Main calculator source: `1858921975bc96861911b517291eef183815b6283484315112a54092d3149a3d`
+Main calculator source: `34c28001bc83c27a7bf095fdf84da658f87312b443a097c565f0ecfb8b9c4856`
 
-Pi digit calculator executable: `7399cc5766a0da98d8213fe047322f0530898faadab8307ad29dc6e9a2ca8763`
+Pi digit calculator executable: `25a8dd66f05f837efbcd4a7b362e300697d1ecf6c02b673f37eda2ffd5dc6e0d`
 
-Pi digit calculator source: `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`
+Pi digit calculator source: `05aa50de061130f06a98cb3467b959b7d68c0b469b98a90f6a181fc0715d0e11`
 
 Use a hash calculator like 7-Zip's CRC SHA or PowerShell (see below). For 7-Zip just right click the file, hover to its context menu, then CRC SHA, and choose SHA256.
 
@@ -20,7 +20,4 @@ For PowerShell it's a bit more complicated but the command syntax goes like this
 
 `Get-FileHash [-Path] <FileName> [[-Algorithm] <AlgoName>] [<CommonParameters>]`
 
-(`CommonParameters` is denoted in [Microsoft's guide about hashing in PS](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3))
-
-Example: `PS C:\> Get-FileHash C:\pi.py -Algorithm SHA256 | Format-List` will print the SHA256 value of the `pi.py` file which, as stated above, should be `d07cd890f3a05f1a41e573188b1eec1e1185847b9ce22d698d0b527e5b83869d`.
-![Screenshot 2022-12-08 174809](https://user-images.githubusercontent.com/70247964/206427757-a2589044-d667-46c3-90d0-243cca3917af.png)
+(Refer to [Microsoft's guide about hashing in PS](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3))
