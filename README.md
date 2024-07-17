@@ -1,8 +1,14 @@
-# pycalc
+# About this project
+
+Originally I wanted to dev a full blown calculator with a GUI, but then I'd be reinventing the wheel. Massive waste of time.
+
+This project is no longer maintained, and the repo is indefinitely archived. Contact me through my work email for any inquiries.
+
+## Functions
 
 8 operations supported: +, -, *, /, **, %, √ & ∛
 
-## Always verify SHA256 hashes before execution
+## Hashes
 
 Main calculator executable: `e8194944d8c9a9607f2d7f891f28c2702592f9a0176bd663f17b06f5c6a82423`
 
