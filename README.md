@@ -1,10 +1,8 @@
 # python-calculator
 
-1. This is a command-line executable, written in Python 3.11.
+Supports 8 operations: + (addition), - (subtraction), * (multiplication), / (division), ** (power), % (modulo), √ (square root) and 3√ (cube root).
 
-2. The calculator supports 8 operations: + (addition), - (subtraction), * (multiplication), / (division), ** (power), % (modulo), √ (square root) and 3√ (cube root).
-
-3. Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
+Always check the downloaded files' integrity before opening. SHA256 file hashes are only available for the current release in this Readme markdown file.
 
 Main calculator executable: `e8194944d8c9a9607f2d7f891f28c2702592f9a0176bd663f17b06f5c6a82423`
 
