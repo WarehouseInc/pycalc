@@ -2,7 +2,7 @@
 
 8 operations supported: +, -, *, /, **, %, √ & ∛
 
-## Always check the SHA256 hashes before execution
+## Always verify SHA256 hashes before execution
 
 Main calculator executable: `e8194944d8c9a9607f2d7f891f28c2702592f9a0176bd663f17b06f5c6a82423`
 
