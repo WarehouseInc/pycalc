@@ -1,8 +1,10 @@
 # About this project
 
-Originally I wanted to dev a full blown calculator with a GUI, but then I'd be reinventing the wheel. Massive waste of time.
+Originally I wanted to develop a full blown calculator with a GUI, but then for how much I knew back then I'd be wasting time. I probably wouldn't do this again though. I've lost interest.
 
-This project is no longer maintained, and the repo is indefinitely archived. Contact me through my work email for any inquiries.
+This project is no longer maintained, and the repo is indefinitely archived. Use with caution.
+
+Contact me through my work email for any inquiries.
 
 ## Functions
 
@@ -18,4 +20,4 @@ Pi digit calculator executable: `25a8dd66f05f837efbcd4a7b362e300697d1ecf6c02b673
 
 Pi digit calculator source: `05aa50de061130f06a98cb3467b959b7d68c0b469b98a90f6a181fc0715d0e11`
 
-Use a hash calculator like 7-Zip's CRC SHA or PowerShell. More details [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.3).
+Use a hash calculator like 7-Zip's CRC SHA or PowerShell. More details [here](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash).
